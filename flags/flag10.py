@@ -1,0 +1,85 @@
+import turtle
+from turtle import *
+speed(2)
+setup(800, 500)
+bgcolor("black")
+
+penup()
+goto(-400, -80)
+pendown()
+
+#yellow strip
+color("gold")
+begin_fill()
+forward(800)
+left(90)
+forward(167)
+left(90)
+forward(800)
+end_fill()
+
+left(90)
+penup()
+goto(-400, 250)
+pendown()
+color("black")
+begin_fill()
+forward(500)
+left(130)
+forward(400)
+end_fill()
+
+penup()
+goto(-400, 250)
+pendown()
+right(40)
+
+color("green")
+begin_fill()
+forward(800)
+right(90)
+forward(500)
+right(90)
+forward(800)
+end_fill()
+
+right(90)
+#next layer
+color("deepskyblue")
+begin_fill()
+forward(500)
+right(90)
+forward(800)
+right(90)
+forward(500)
+end_fill()
+
+#yellow strip
+penup()
+goto(-400, -80)
+pendown()
+left(90)
+color("gold")
+begin_fill()
+forward(800)
+left(90)
+forward(167)
+left(90)
+forward(800)
+end_fill()
+
+
+#triangle
+left(90)
+penup()
+goto(-400, 250)
+pendown()
+color("black")
+begin_fill()
+forward(500)
+left(130)
+forward(400)
+end_fill()
+
+hideturtle()
+turtle.done()
